@@ -1,5 +1,5 @@
 # ComputerSciencePaper
-#The data is imported from a JSON-file.
+The data is imported from a JSON-file.
 
 The data in the variable title is cleaned (set to lower cases and normalizing frequently used words for inch and hertz).
 
