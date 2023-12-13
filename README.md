@@ -1,6 +1,6 @@
 # ComputerSciencePaper
-The data is imported from a JSON-file.
-The data in the variable title is cleaned (set to lower cases and normalizing frequently used words for inch and hertz).
+#The data is imported from a JSON-file.
+#The data in the variable title is cleaned (set to lower cases and normalizing frequently used words for inch and hertz).
 The model words are extracted and used to make binary vectors each representing a product.
 Min-hashing using hashfunctions is performed to create a signature matrix. It reduces sparsity of the binary vector without too much losing information.
 All possible combinations of rows and bands, where rows times bands must be the size of the signature matrix, different buckets are formed. With 5 bootstraps of 63% of the data the pair quality, pair completeness and the F1* measure are calculated
